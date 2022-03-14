@@ -5,12 +5,12 @@ image_thumbs_loc: "/images/thumbs"
 google_analytics: "G-8THYDCWVPG"
 
 # UI configs
-title: "Photography by Mosie Hillis"
+title: "Concert Photography"
 subtitle: "A Sample of My Work"
 author: "Mosie Hillis"
 web_design: "AJ"
 header:
- title: "Photography"
+ title: "Concert Photography"
  subtitle: "by Mosie Hillis"
 footer:
  name: "Now booking through 2022!"
