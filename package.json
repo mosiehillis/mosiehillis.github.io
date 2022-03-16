@@ -4,7 +4,8 @@
   "description": "A jekyll website for photographer cum developer",
   "main": "npmfile.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "resize": "node resizeImages.js"
   },
   "repository": {
     "type": "git",
@@ -31,6 +32,9 @@
     "gulp-image-resize": "^0.12.0",
     "gulp-rename": "^1.2.2",
     "gulp-sass": "^3.1.0",
-    "gulp-uglify": "^3.0.0"
+    "gulp-uglify": "^3.0.0",
+    "sharp": "^0.28.3"
+  },
+  "dependencies": {
   }
 }
