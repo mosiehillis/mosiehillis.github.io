@@ -7,7 +7,7 @@
 <body>
 	{% assign target = "target" %}
 	<ul class="grid" id="{{ target }}">
-		{% assign images = site.static_files | where: "image", true %}
+		{% assign images = site.static_files | photo_filter %}
 		{% include photos.html %}
 		</ul>
 		<ul class="links">
