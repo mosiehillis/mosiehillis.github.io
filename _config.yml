@@ -63,3 +63,9 @@ image_processing:
 #   - vendor/gems/
 #   - vendor/ruby/
 exclude: [Dockerfile, LICENSE]
+
+defaults:
+  - scope:
+      path: "photos/original"
+    values:
+      image: true 
