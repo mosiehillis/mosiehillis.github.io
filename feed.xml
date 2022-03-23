@@ -25,7 +25,7 @@
 		</author>
 	{% endif %}
 
-	{% assign images = site.static_files | photo_filter %}
+	{% assign images = site.static_files | where: "image", true %}
 	{% for image in images limit: 20 %}
 		{% capture image_path %}photos/original/{{ image.name }}{% endcapture %}
 		<entry>
