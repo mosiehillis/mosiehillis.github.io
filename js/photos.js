@@ -1,6 +1,6 @@
 ---
 ---
-{% assign images = site.static_files | photo_filter %}
+{% assign images = site.static_files | where: "image", true %}
 (function(html) {
   const id = document.currentScript.getAttribute('data-photo-id');
   const url = document.currentScript.getAttribute('data-photo-url');
