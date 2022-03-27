@@ -45,6 +45,7 @@ body { flex-grow: 1; font: 16px/24px -apple-system, BlinkMacSystemFont, "Segoe U
 .links li.rss a { background-image: url(../img/icon-rss.svg); }
 .links li.sort a { background-image: url(../img/icon-sort.svg); }
 .links li.link a { text-indent: 0; width: auto; font-size: 13px; line-height: 32px; text-transform: uppercase; padding: 0 12px; color: rgba(0, 0, 0, 0.75); font-weight: 600; text-decoration: none; }
+.links li.bio p { text-indent: 0; width: auto; font-size: 13px; line-height: 32px; text-transform: uppercase; padding: 0 12px; color: rgba(0, 0, 0, 0.75); font-weight: 600; text-decoration: none; }
 .four-oh-four { flex-grow: 1; display: flex; flex-direction: column; height: 100%; padding: 64px; align-items: center; justify-content: center; text-align: center; }
 .four-oh-four img { width: 64px; vertical-align: bottom; margin-bottom: 24px; }
 .four-oh-four h1 { font-size: 32px; line-height: 48px; font-weight: 700; }
