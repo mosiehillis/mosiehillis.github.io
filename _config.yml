@@ -62,10 +62,4 @@ image_processing:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-exclude: [Dockerfile, LICENSE, CNAME, Gemfile]
-
-defaults:
-  - scope:
-      path: "photos/original"
-    values:
-      image: true 
+exclude: [Dockerfile, LICENSE]

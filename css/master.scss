@@ -307,6 +307,12 @@ body {
 			}
 		}
 		
+                &.email {
+                        a {
+                                background-image: url(../img/icon-email.svg);
+                        }
+                }
+
 		&.rss {
 			a {
 				background-image: url(../img/icon-rss.svg);

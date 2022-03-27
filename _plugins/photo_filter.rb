@@ -3,7 +3,7 @@ require "exifr"
 module Jekyll
   module PhotoFilter
     def photo_filter(files)
-      photos = files.select(&:photo.extname.include?("jpg"))
+      photos = files.select {|photo| photo.relative_path.include?("original") }
       sorted = photos.sort_by { |photo|
         (EXIFR::JPEG.new(photo.path).exif? && EXIFR::JPEG.new(photo.path).date_time_original ?
         EXIFR::JPEG.new(photo.path).date_time_original.to_s :
