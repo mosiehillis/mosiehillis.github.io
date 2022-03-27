@@ -338,6 +338,20 @@ body {
 				text-decoration: none;
 			}
 		}
+                &.bio {
+                        p {
+                                text-indent: 0;
+                                width: auto;
+                                font-size: 13px;
+                                line-height: 32px;
+                                text-transform: uppercase;
+                                padding: 0 12px;
+                                color: rgba(0, 0, 0, .75);
+                                font-weight: 600;
+                                text-decoration: none;
+                        }
+                }
+
 	}
 }
 
