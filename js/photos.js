@@ -147,6 +147,25 @@ lazyload();
   <a href="/dsc-0596" data-target="id-dsc-0596" class="previous" title="Go to previous photo">
     <span>Previous</span>
   </a>
+  <a href="/dsc-0471" data-target="id-dsc-0471" class="next" title="Go to next photo">
+    <span>Next</span>
+  </a>
+  <!-- <ul class="meta">
+    <li>NIKON D3300</li>
+    <li>1/3200</li>
+    <li><span class="aperture"><em>f</em>/</span>1.8</li>
+    </ul> -->
+</li>
+<li class="item " id="id-dsc-0471" style="background-image: url('/photos/tint/DSC_0471-65ba1d.jpg')" title="DSC_0471">
+  <img class="lazyload" data-src="/photos/thumbnail/DSC_0471-ccf4df.jpg" src="/photos/tint/DSC_0471-65ba1d.jpg" height="4000" width="6000" />
+  <span class="full">
+    <span style="background-image: url('/photos/large/DSC_0471-686656.jpg')"></span>
+  </span>
+  <a class="open" href="/dsc-0471" data-target="id-dsc-0471">Open</a>
+  <a class="close" href="/">Close</a>
+  <a href="/dsc-0574" data-target="id-dsc-0574" class="previous" title="Go to previous photo">
+    <span>Previous</span>
+  </a>
   <a href="/dsc-0429" data-target="id-dsc-0429" class="next" title="Go to next photo">
     <span>Next</span>
   </a>
@@ -163,7 +182,7 @@ lazyload();
   </span>
   <a class="open" href="/dsc-0429" data-target="id-dsc-0429">Open</a>
   <a class="close" href="/">Close</a>
-  <a href="/dsc-0574" data-target="id-dsc-0574" class="previous" title="Go to previous photo">
+  <a href="/dsc-0471" data-target="id-dsc-0471" class="previous" title="Go to previous photo">
     <span>Previous</span>
   </a>
   <a href="/hoopes" data-target="id-hoopes" class="next" title="Go to next photo">

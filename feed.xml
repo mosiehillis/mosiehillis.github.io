@@ -3,8 +3,8 @@
     <generator uri="https://github.com/mosiehillis/mosiehillis.github.io">Photo Stream by @mosiehillis</generator>
     <link href="https://mosiehillis.com/feed.xml" rel="self" type="application/atom+xml" />
     <link href="https://mosiehillis.com/" rel="alternate" type="text/html"/>
-    <updated>2022-03-26T19:44:25-06:00</updated>
-    <id>2022-03-26T19:44:25-06:00</id>
+    <updated>2022-03-26T19:57:33-06:00</updated>
+    <id>2022-03-26T19:57:33-06:00</id>
     <title type="html">Concert Photography</title>
     <subtitle>@mozehillis' portfolio</subtitle>
     <author>
@@ -157,13 +157,13 @@
                     <media:content medium="image" url="https://mosiehillis.com//photos/large/DSC_0574-686656.jpg" xmlns:media="http://search.yahoo.com/mrss/" />
                     </entry>
                     <entry>
-                      <title type="html">DSC_0429</title>
-                      <link href="https://mosiehillis.com/dsc-0429/" rel="alternate" type="text/html" title="DSC_0429" />
-                      <published>2022-03-18T17:42:23-06:00</published>
-                      <updated>2022-03-18T17:42:23-06:00</updated>
-                      <id>https://mosiehillis.com//dsc-0429/</id>
+                      <title type="html">DSC_0471</title>
+                      <link href="https://mosiehillis.com/dsc-0471/" rel="alternate" type="text/html" title="DSC_0471" />
+                      <published>2022-03-18T18:32:14-06:00</published>
+                      <updated>2022-03-18T18:32:14-06:00</updated>
+                      <id>https://mosiehillis.com//dsc-0471/</id>
                       <content type="html">
-                        <![CDATA[<figure><a href="https://mosiehillis.com/dsc-0429/"><img src="https://mosiehillis.com//photos/large/DSC_0429-686656.jpg" alt="DSC_0429" /></a></figure>
+                        <![CDATA[<figure><a href="https://mosiehillis.com/dsc-0471/"><img src="https://mosiehillis.com//photos/large/DSC_0471-686656.jpg" alt="DSC_0471" /></a></figure>
                       ]]>
                     </content>
                     <author>
@@ -171,17 +171,17 @@
                       <email>mosiehillis@gmail.com</email>
                       <uri>https://mosiehillis.com/</uri>
                     </author>
-                    <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://mosiehillis.com//photos/large/DSC_0429-686656.jpg" />
-                      <media:content medium="image" url="https://mosiehillis.com//photos/large/DSC_0429-686656.jpg" xmlns:media="http://search.yahoo.com/mrss/" />
+                    <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://mosiehillis.com//photos/large/DSC_0471-686656.jpg" />
+                      <media:content medium="image" url="https://mosiehillis.com//photos/large/DSC_0471-686656.jpg" xmlns:media="http://search.yahoo.com/mrss/" />
                       </entry>
                       <entry>
-                        <title type="html">hoopes</title>
-                        <link href="https://mosiehillis.com/hoopes/" rel="alternate" type="text/html" title="hoopes" />
-                        <published>2022-02-18T22:10:29-07:00</published>
-                        <updated>2022-02-18T22:10:29-07:00</updated>
-                        <id>https://mosiehillis.com//hoopes/</id>
+                        <title type="html">DSC_0429</title>
+                        <link href="https://mosiehillis.com/dsc-0429/" rel="alternate" type="text/html" title="DSC_0429" />
+                        <published>2022-03-18T17:42:23-06:00</published>
+                        <updated>2022-03-18T17:42:23-06:00</updated>
+                        <id>https://mosiehillis.com//dsc-0429/</id>
                         <content type="html">
-                          <![CDATA[<figure><a href="https://mosiehillis.com/hoopes/"><img src="https://mosiehillis.com//photos/large/hoopes-686656.jpg" alt="hoopes" /></a></figure>
+                          <![CDATA[<figure><a href="https://mosiehillis.com/dsc-0429/"><img src="https://mosiehillis.com//photos/large/DSC_0429-686656.jpg" alt="DSC_0429" /></a></figure>
                         ]]>
                       </content>
                       <author>
@@ -189,7 +189,25 @@
                         <email>mosiehillis@gmail.com</email>
                         <uri>https://mosiehillis.com/</uri>
                       </author>
-                      <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://mosiehillis.com//photos/large/hoopes-686656.jpg" />
-                        <media:content medium="image" url="https://mosiehillis.com//photos/large/hoopes-686656.jpg" xmlns:media="http://search.yahoo.com/mrss/" />
+                      <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://mosiehillis.com//photos/large/DSC_0429-686656.jpg" />
+                        <media:content medium="image" url="https://mosiehillis.com//photos/large/DSC_0429-686656.jpg" xmlns:media="http://search.yahoo.com/mrss/" />
                         </entry>
-                      </feed>
+                        <entry>
+                          <title type="html">hoopes</title>
+                          <link href="https://mosiehillis.com/hoopes/" rel="alternate" type="text/html" title="hoopes" />
+                          <published>2022-02-18T22:10:29-07:00</published>
+                          <updated>2022-02-18T22:10:29-07:00</updated>
+                          <id>https://mosiehillis.com//hoopes/</id>
+                          <content type="html">
+                            <![CDATA[<figure><a href="https://mosiehillis.com/hoopes/"><img src="https://mosiehillis.com//photos/large/hoopes-686656.jpg" alt="hoopes" /></a></figure>
+                          ]]>
+                        </content>
+                        <author>
+                          <name>Mosie Hillis</name>
+                          <email>mosiehillis@gmail.com</email>
+                          <uri>https://mosiehillis.com/</uri>
+                        </author>
+                        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://mosiehillis.com//photos/large/hoopes-686656.jpg" />
+                          <media:content medium="image" url="https://mosiehillis.com//photos/large/hoopes-686656.jpg" xmlns:media="http://search.yahoo.com/mrss/" />
+                          </entry>
+                        </feed>
