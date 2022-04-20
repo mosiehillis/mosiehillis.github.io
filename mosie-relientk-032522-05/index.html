@@ -1,0 +1,172 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title data-title="Concert Photography">mosie_relientk_032522_05</title>
+    <link rel="alternate" type="application/rss+xml" title="RSS Feed" href="https://mosiehillis.com/feed.xml">
+    <meta property="og:title" content="mosie_relientk_032522_05">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="/mosie-relientk-032522-05/">
+    <meta property="og:image" content="https://mosiehillis.com//photos/large/mosie_relientk_032522_05-686656.jpg">
+    <meta property="og:site_name" content="Concert Photography">
+    <meta property="og:description" content="@mosiehillis' portfolio">
+    <meta name="thumbnail" content="https://mosiehillis.com//photos/large/mosie_relientk_032522_05-686656.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="mosiehillis">
+    <meta name="twitter:title" content="mosie_relientk_032522_05">
+    <meta name="twitter:description" content="@mosiehillis' portfolio">
+    <meta name="twitter:image:src" content="https://mosiehillis.com//photos/large/mosie_relientk_032522_05-686656.jpg">
+    <meta name="description" content="@mosiehillis' portfolio">
+    <script type="text/javascript" src="/js/lazy-loading.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="/css/master.css" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png">
+    <link rel="manifest" href="/favicons/site.webmanifest">
+    <link rel="mask-icon" href="favicons/favicon.svg" />
+  </head>
+  <body>
+    <ul class="grid" id="target">
+      <li class="item target" id="id-mosie-relientk-032522-05" style="background-image: url('/photos/tint/mosie_relientk_032522_05-65ba1d.jpg')" title="mosie_relientk_032522_05">
+        <img class="lazyload" data-src="/photos/thumbnail/mosie_relientk_032522_05-473515.jpg" src="/photos/tint/mosie_relientk_032522_05-65ba1d.jpg" height="3360" width="4704" />
+        <span class="full">
+          <span style="background-image: url('/photos/large/mosie_relientk_032522_05-686656.jpg')"></span>
+        </span>
+        <a class="open" href="/mosie-relientk-032522-05" data-target="id-mosie-relientk-032522-05">Open</a>
+        <a class="close" href="/">Close</a>
+        <!-- <ul class="meta">
+    <li>NIKON D3300</li>
+    <li>1/500</li>
+    <li><span class="aperture"><em>f</em>/</span>3.5</li>
+    </ul> -->
+      </li>
+      <script>
+        const ESCAPE = 27;
+        const RIGHT = 39;
+        const LEFT = 37;
+        const UP = 38;
+        const DOWN = 40;
+        const TARGET_CLASS = 'target';
+        
+        const clickNavigationButton = (buttonClass) => {
+          const id = window.history.state && window.history.state.id;
+          if (id) {
+            const selector = `#${id} ${buttonClass}`;
+            const button = document.querySelector(selector);
+            button && button.click();
+          }
+        }
+        
+        const openPhoto = (id, href) => {
+          const photo = document.getElementById(id);
+          const title = photo.getAttribute('title');
+          removeTargetClass();
+          photo.classList.add(TARGET_CLASS);
+          document.title = title;
+          if (href) {
+            window.history.pushState({id: id}, '', href);
+          }
+        }
+        
+        const closePhoto = (href) => {
+          const title = document.querySelector('head title').getAttribute('data-title');
+          removeTargetClass();
+          document.title = title;
+          if (href) {
+            window.history.pushState({}, '', href);
+          }
+        }
+        
+        const removeTargetClass = () => {
+          let targets = document.querySelectorAll(`.${TARGET_CLASS}`);
+          targets.forEach((target) => {
+            target.classList.remove(TARGET_CLASS);
+          });
+        }
+        
+        const handleClick = (selector, event, callback) => {
+          if (event.target.matches(selector)) {
+            callback();
+            event.preventDefault();
+          }
+        }
+        
+        const handleKey = (keyCode, event, callback) => {
+          if (event.keyCode === keyCode) {
+            callback();
+            event.preventDefault();
+          }
+        }
+        
+        const reverseSorting = () => {
+        
+          var parent = document.getElementById('target');
+          for (var i = 1; i < parent.childNodes.length; i++){
+              parent.insertBefore(parent.childNodes[i], parent.firstChild);
+          }
+        
+        }
+        
+        window.onpopstate = function(event) {
+          if (event.state && event.state.id) {
+            const id = event.state.id;
+            openPhoto(id, null);
+          } else {
+            closePhoto(null);
+          }
+        }
+        
+        document.addEventListener('keydown', (event) => {
+          handleKey(ESCAPE, event, () => {
+            clickNavigationButton('.close');
+          });
+        
+          handleKey(RIGHT, event, () => {
+            clickNavigationButton('.next');
+          });
+        
+          handleKey(LEFT, event, () => {
+            clickNavigationButton('.previous');
+          });
+        
+          handleKey(UP, event, () => {
+            reverseSorting();
+          });
+        
+          handleKey(DOWN, event, () => {
+            reverseSorting();
+          });
+        });
+        
+        document.addEventListener('click', (event) => {
+          handleClick('[data-target][href]', event, () => {
+            const id = event.target.getAttribute('data-target');
+            const href = event.target.getAttribute('href');
+            openPhoto(id, href);
+          });
+        
+          handleClick('[href].close', event, () => {
+            const href = event.target.getAttribute('href');
+            closePhoto(href);
+          });
+        
+          handleClick('ul.links li.sort a', event, () => {
+            reverseSorting();
+          });
+        });
+        
+        lazyload();
+      </script>
+      <script src="/js/photos.js" data-photo-id="mosie-relientk-032522-05" data-photo-url="/mosie-relientk-032522-05" data-target-id="target"></script>
+    </body>
+  </ul>
+  <ul class="links">
+    <!-- <li class="bio"><p>Concert Photography by Mosie Hillis. Now booking through 2022!</p?</li> -->
+    <li class="sort"><a rel="me" href="#" title="Reverse sort order">Sort</a></li>
+    <li class="rss"><a rel="alternate" type="application/rss+xml" href="https://mosiehillis.com/feed.xml" title="RSS Feed">RSS Feed</a></li>
+    <li class="twitter"><a rel="me" href="https://twitter.com/mosiehillis" title="@mosiehillis on Twitter">Twitter</a></li>
+    <li class="instagram"><a rel="me" href="https://instagram.com/mosiehillis" title="@mosiehillis on Instagram">Instagram</a></li>
+    <li class="email"><a rel="me" href="mailto:mosiehillis@gmail.com" title="Email">Email</a></li>
+  </ul>
+</html>
