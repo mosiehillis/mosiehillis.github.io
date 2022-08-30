@@ -7,6 +7,174 @@ container.innerHTML = html;
 openPhoto("id-"+id, url);
 lazyload();
 })(`
+<li class="item " id="id-mosie-mattnathanson-082722-1" style="background-image: url('/photos/tint/mosie-MattNathanson-082722-1-65ba1d.jpg')" title="mosie-MattNathanson-082722-1">
+  <img class="lazyload" data-src="/photos/thumbnail/mosie-MattNathanson-082722-1-473515.jpg" src="/photos/tint/mosie-MattNathanson-082722-1-65ba1d.jpg" height="2400" width="1600" />
+  <span class="full">
+    <span style="background-image: url('/photos/large/mosie-MattNathanson-082722-1-686656.jpg')"></span>
+  </span>
+  <a class="open" href="/mosie-mattnathanson-082722-1" data-target="id-mosie-mattnathanson-082722-1">Open</a>
+  <a class="close" href="/">Close</a>
+  <a href="/mosie-mattnathanson-082722-3" data-target="id-mosie-mattnathanson-082722-3" class="next" title="Go to next photo">
+    <span>Next</span>
+  </a>
+  <!-- <ul class="meta">
+    <li>NIKON D3300</li>
+    <li>1/1600</li>
+    <li><span class="aperture"><em>f</em>/</span>2.8</li>
+    </ul> -->
+</li>
+<li class="item " id="id-mosie-mattnathanson-082722-3" style="background-image: url('/photos/tint/mosie-MattNathanson-082722-3-65ba1d.jpg')" title="mosie-MattNathanson-082722-3">
+  <img class="lazyload" data-src="/photos/thumbnail/mosie-MattNathanson-082722-3-473515.jpg" src="/photos/tint/mosie-MattNathanson-082722-3-65ba1d.jpg" height="1600" width="2400" />
+  <span class="full">
+    <span style="background-image: url('/photos/large/mosie-MattNathanson-082722-3-686656.jpg')"></span>
+  </span>
+  <a class="open" href="/mosie-mattnathanson-082722-3" data-target="id-mosie-mattnathanson-082722-3">Open</a>
+  <a class="close" href="/">Close</a>
+  <a href="/mosie-mattnathanson-082722-1" data-target="id-mosie-mattnathanson-082722-1" class="previous" title="Go to previous photo">
+    <span>Previous</span>
+  </a>
+  <a href="/mosie-mattnathanson-082722-2" data-target="id-mosie-mattnathanson-082722-2" class="next" title="Go to next photo">
+    <span>Next</span>
+  </a>
+  <!-- <ul class="meta">
+    <li>NIKON D3300</li>
+    <li>1/640</li>
+    <li><span class="aperture"><em>f</em>/</span>2.8</li>
+    </ul> -->
+</li>
+<li class="item " id="id-mosie-mattnathanson-082722-2" style="background-image: url('/photos/tint/mosie-MattNathanson-082722-2-65ba1d.jpg')" title="mosie-MattNathanson-082722-2">
+  <img class="lazyload" data-src="/photos/thumbnail/mosie-MattNathanson-082722-2-473515.jpg" src="/photos/tint/mosie-MattNathanson-082722-2-65ba1d.jpg" height="2400" width="1600" />
+  <span class="full">
+    <span style="background-image: url('/photos/large/mosie-MattNathanson-082722-2-686656.jpg')"></span>
+  </span>
+  <a class="open" href="/mosie-mattnathanson-082722-2" data-target="id-mosie-mattnathanson-082722-2">Open</a>
+  <a class="close" href="/">Close</a>
+  <a href="/mosie-mattnathanson-082722-3" data-target="id-mosie-mattnathanson-082722-3" class="previous" title="Go to previous photo">
+    <span>Previous</span>
+  </a>
+  <a href="/mosie-newfoundglory-072322-1" data-target="id-mosie-newfoundglory-072322-1" class="next" title="Go to next photo">
+    <span>Next</span>
+  </a>
+  <!-- <ul class="meta">
+    <li>NIKON D3300</li>
+    <li>1/640</li>
+    <li><span class="aperture"><em>f</em>/</span>2.8</li>
+    </ul> -->
+</li>
+<li class="item " id="id-mosie-newfoundglory-072322-1" style="background-image: url('/photos/tint/mosie-NewFoundGlory-072322-1-65ba1d.jpg')" title="mosie-NewFoundGlory-072322-1">
+  <img class="lazyload" data-src="/photos/thumbnail/mosie-NewFoundGlory-072322-1-473515.jpg" src="/photos/tint/mosie-NewFoundGlory-072322-1-65ba1d.jpg" height="4000" width="6000" />
+  <span class="full">
+    <span style="background-image: url('/photos/large/mosie-NewFoundGlory-072322-1-686656.jpg')"></span>
+  </span>
+  <a class="open" href="/mosie-newfoundglory-072322-1" data-target="id-mosie-newfoundglory-072322-1">Open</a>
+  <a class="close" href="/">Close</a>
+  <a href="/mosie-mattnathanson-082722-2" data-target="id-mosie-mattnathanson-082722-2" class="previous" title="Go to previous photo">
+    <span>Previous</span>
+  </a>
+  <a href="/mosie-newfoundglory-072322-3" data-target="id-mosie-newfoundglory-072322-3" class="next" title="Go to next photo">
+    <span>Next</span>
+  </a>
+  <!-- <ul class="meta">
+    <li>NIKON D3300</li>
+    <li>1/320</li>
+    <li><span class="aperture"><em>f</em>/</span>2.8</li>
+    </ul> -->
+</li>
+<li class="item " id="id-mosie-newfoundglory-072322-3" style="background-image: url('/photos/tint/mosie-NewFoundGlory-072322-3-65ba1d.jpg')" title="mosie-NewFoundGlory-072322-3">
+  <img class="lazyload" data-src="/photos/thumbnail/mosie-NewFoundGlory-072322-3-473515.jpg" src="/photos/tint/mosie-NewFoundGlory-072322-3-65ba1d.jpg" height="4000" width="6000" />
+  <span class="full">
+    <span style="background-image: url('/photos/large/mosie-NewFoundGlory-072322-3-686656.jpg')"></span>
+  </span>
+  <a class="open" href="/mosie-newfoundglory-072322-3" data-target="id-mosie-newfoundglory-072322-3">Open</a>
+  <a class="close" href="/">Close</a>
+  <a href="/mosie-newfoundglory-072322-1" data-target="id-mosie-newfoundglory-072322-1" class="previous" title="Go to previous photo">
+    <span>Previous</span>
+  </a>
+  <a href="/mosie-newfoundglory-072322-2" data-target="id-mosie-newfoundglory-072322-2" class="next" title="Go to next photo">
+    <span>Next</span>
+  </a>
+  <!-- <ul class="meta">
+    <li>NIKON D3300</li>
+    <li>1/160</li>
+    <li><span class="aperture"><em>f</em>/</span>1.8</li>
+    </ul> -->
+</li>
+<li class="item " id="id-mosie-newfoundglory-072322-2" style="background-image: url('/photos/tint/mosie-NewFoundGlory-072322-2-65ba1d.jpg')" title="mosie-NewFoundGlory-072322-2">
+  <img class="lazyload" data-src="/photos/thumbnail/mosie-NewFoundGlory-072322-2-473515.jpg" src="/photos/tint/mosie-NewFoundGlory-072322-2-65ba1d.jpg" height="4000" width="6000" />
+  <span class="full">
+    <span style="background-image: url('/photos/large/mosie-NewFoundGlory-072322-2-686656.jpg')"></span>
+  </span>
+  <a class="open" href="/mosie-newfoundglory-072322-2" data-target="id-mosie-newfoundglory-072322-2">Open</a>
+  <a class="close" href="/">Close</a>
+  <a href="/mosie-newfoundglory-072322-3" data-target="id-mosie-newfoundglory-072322-3" class="previous" title="Go to previous photo">
+    <span>Previous</span>
+  </a>
+  <a href="/mosie-fouryearstrong-072322-1" data-target="id-mosie-fouryearstrong-072322-1" class="next" title="Go to next photo">
+    <span>Next</span>
+  </a>
+  <!-- <ul class="meta">
+    <li>NIKON D3300</li>
+    <li>1/160</li>
+    <li><span class="aperture"><em>f</em>/</span>1.8</li>
+    </ul> -->
+</li>
+<li class="item " id="id-mosie-fouryearstrong-072322-1" style="background-image: url('/photos/tint/mosie-FourYearStrong-072322-1-65ba1d.jpg')" title="mosie-FourYearStrong-072322-1">
+  <img class="lazyload" data-src="/photos/thumbnail/mosie-FourYearStrong-072322-1-473515.jpg" src="/photos/tint/mosie-FourYearStrong-072322-1-65ba1d.jpg" height="4000" width="6000" />
+  <span class="full">
+    <span style="background-image: url('/photos/large/mosie-FourYearStrong-072322-1-686656.jpg')"></span>
+  </span>
+  <a class="open" href="/mosie-fouryearstrong-072322-1" data-target="id-mosie-fouryearstrong-072322-1">Open</a>
+  <a class="close" href="/">Close</a>
+  <a href="/mosie-newfoundglory-072322-2" data-target="id-mosie-newfoundglory-072322-2" class="previous" title="Go to previous photo">
+    <span>Previous</span>
+  </a>
+  <a href="/mosie-fouryearstrong-072322-2" data-target="id-mosie-fouryearstrong-072322-2" class="next" title="Go to next photo">
+    <span>Next</span>
+  </a>
+  <!-- <ul class="meta">
+    <li>NIKON D3300</li>
+    <li>1/80</li>
+    <li><span class="aperture"><em>f</em>/</span>2.8</li>
+    </ul> -->
+</li>
+<li class="item " id="id-mosie-fouryearstrong-072322-2" style="background-image: url('/photos/tint/mosie-FourYearStrong-072322-2-65ba1d.jpg')" title="mosie-FourYearStrong-072322-2">
+  <img class="lazyload" data-src="/photos/thumbnail/mosie-FourYearStrong-072322-2-473515.jpg" src="/photos/tint/mosie-FourYearStrong-072322-2-65ba1d.jpg" height="4000" width="6000" />
+  <span class="full">
+    <span style="background-image: url('/photos/large/mosie-FourYearStrong-072322-2-686656.jpg')"></span>
+  </span>
+  <a class="open" href="/mosie-fouryearstrong-072322-2" data-target="id-mosie-fouryearstrong-072322-2">Open</a>
+  <a class="close" href="/">Close</a>
+  <a href="/mosie-fouryearstrong-072322-1" data-target="id-mosie-fouryearstrong-072322-1" class="previous" title="Go to previous photo">
+    <span>Previous</span>
+  </a>
+  <a href="/mosie-bewell-072322-1" data-target="id-mosie-bewell-072322-1" class="next" title="Go to next photo">
+    <span>Next</span>
+  </a>
+  <!-- <ul class="meta">
+    <li>NIKON D3300</li>
+    <li>1/80</li>
+    <li><span class="aperture"><em>f</em>/</span>2.8</li>
+    </ul> -->
+</li>
+<li class="item " id="id-mosie-bewell-072322-1" style="background-image: url('/photos/tint/mosie-BeWell-072322-1-65ba1d.jpg')" title="mosie-BeWell-072322-1">
+  <img class="lazyload" data-src="/photos/thumbnail/mosie-BeWell-072322-1-473515.jpg" src="/photos/tint/mosie-BeWell-072322-1-65ba1d.jpg" height="6000" width="4000" />
+  <span class="full">
+    <span style="background-image: url('/photos/large/mosie-BeWell-072322-1-686656.jpg')"></span>
+  </span>
+  <a class="open" href="/mosie-bewell-072322-1" data-target="id-mosie-bewell-072322-1">Open</a>
+  <a class="close" href="/">Close</a>
+  <a href="/mosie-fouryearstrong-072322-2" data-target="id-mosie-fouryearstrong-072322-2" class="previous" title="Go to previous photo">
+    <span>Previous</span>
+  </a>
+  <a href="/mosie-relientk-032622-07" data-target="id-mosie-relientk-032622-07" class="next" title="Go to next photo">
+    <span>Next</span>
+  </a>
+  <!-- <ul class="meta">
+    <li>NIKON D3300</li>
+    <li>1/100</li>
+    <li><span class="aperture"><em>f</em>/</span>3.5</li>
+    </ul> -->
+</li>
 <li class="item " id="id-mosie-relientk-032622-07" style="background-image: url('/photos/tint/mosie_relientk_032622_07-65ba1d.jpg')" title="mosie_relientk_032622_07">
   <img class="lazyload" data-src="/photos/thumbnail/mosie_relientk_032622_07-473515.jpg" src="/photos/tint/mosie_relientk_032622_07-65ba1d.jpg" height="4000" width="6000" />
   <span class="full">
@@ -14,6 +182,9 @@ lazyload();
   </span>
   <a class="open" href="/mosie-relientk-032622-07" data-target="id-mosie-relientk-032622-07">Open</a>
   <a class="close" href="/">Close</a>
+  <a href="/mosie-bewell-072322-1" data-target="id-mosie-bewell-072322-1" class="previous" title="Go to previous photo">
+    <span>Previous</span>
+  </a>
   <a href="/mosie-relientk-032622-06" data-target="id-mosie-relientk-032622-06" class="next" title="Go to next photo">
     <span>Next</span>
   </a>
