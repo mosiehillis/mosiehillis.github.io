@@ -3,7 +3,7 @@
 
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-	<generator uri="https://github.com/mosiehillis/mosiehillis.github.io">Photo Stream by @mosiehillis</generator>
+	<generator uri="https://github.com/mosiehillis/mosiehillis.github.io">Photo Stream by @mosiehillisphotography</generator>
 	<link href="{{ site.env.URL }}feed.xml" rel="self" type="application/atom+xml" />
 	<link href="{{ site.env.URL }}" rel="alternate" type="text/html"/>
 	<updated>{{ site.time | date_to_xmlschema }}</updated>
