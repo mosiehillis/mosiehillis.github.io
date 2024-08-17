@@ -25,6 +25,19 @@
 		</author>
 	{% endif %}
 
+    <entry>
+        <title>Concerts</title>
+        <link href="{{ site.env.URL }}/concerts/" rel="alternate" type="text/html" title="Concerts"/>
+    </entry>
+    <entry>
+        <title>Portraits</title>
+        <link href="{{ site.env.URL }}/portraits/" rel="alternate" type="text/html" title="Portraits"/>
+    </entry>
+    <entry>
+        <title>Weddings</title>
+        <link href="{{ site.env.URL }}/weddings/" rel="alternate" type="text/html" title="Weddings"/>
+    </entry>
+
 	{% assign images = site.static_files | photo_filter %}
 	{% for image in images limit: 20 %}
 		{% capture image_path %}photos/original/{{ image.name }}{% endcapture %}
