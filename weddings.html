@@ -22,7 +22,7 @@ title: Weddings
             <li>
                 <a href="{{ image.path }}">
                     <img src="{{ image.path }}" alt="{{ image.name }}">
-                    <span>{{ image.name | split: '_' | slice: 1..-1 | join: '_' }}</span>
+                    <span>{{ image.name | split: '_' | pop }}</span>
                 </a>
             </li>
         {% endfor %}
