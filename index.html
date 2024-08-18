@@ -16,6 +16,14 @@
 	{% assign target = "target" %}
 	<ul class="grid" id="{{ target }}">
 		{% assign images = page.images | default: site.static_files | photo_filter %}
+        {% for image in images %}
+            <li>
+                <a href="{{ image.path }}">
+                    <img src="{{ image.path }}" alt="{{ image.name }}">
+                    <span>{{ image.name | split: '_' | last }}</span>
+                </a>
+            </li>
+        {% endfor %}
 		{% include photos.html %}
 		{% include javascript.html %}
 		{% if page.image_slug %}
