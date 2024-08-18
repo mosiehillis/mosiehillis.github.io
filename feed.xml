@@ -25,7 +25,7 @@
 		</author>
 	{% endif %}
 
-    <entry>
+    <!-- <entry>
         <title>Concerts</title>
         <link href="{{ site.env.URL }}/concerts/" rel="alternate" type="text/html" title="Concerts"/>
     </entry>
@@ -36,7 +36,7 @@
     <entry>
         <title>Weddings</title>
         <link href="{{ site.env.URL }}/weddings/" rel="alternate" type="text/html" title="Weddings"/>
-    </entry>
+    </entry> -->
 
 	{% assign images = site.static_files | photo_filter %}
 	{% for image in images limit: 20 %}
