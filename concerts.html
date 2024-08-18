@@ -18,14 +18,14 @@ title: Concerts
 	<ul class="grid" id="target">
 		{% assign images = site.static_files | photo_filter %}
 		{% assign filtered_images = images | starts_with: 'concerts' %}
-        {% for image in filtered_images %}
+        <!-- {% for image in filtered_images %}
             <li>
                 <a href="{{ image.path }}">
                     <img src="{{ image.path }}" alt="{{ image.name }}">
                     <span>{{ segments | slice: 1, segments.size | join: '_' }}</span>
                 </a>
             </li>
-        {% endfor %}
+        {% endfor %} -->
 		{% include photos.html %}
 	</ul>
 	{% include javascript.html %}
