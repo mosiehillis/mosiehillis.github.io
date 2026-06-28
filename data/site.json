@@ -1,0 +1,15 @@
+{
+  "title": "Mosie Hillis Photography",
+  "description": "Concert, wedding, and portrait photography by Mosie Hillis.",
+  "author": "Mosie Hillis",
+  "url": "https://mosiehillis.com/",
+  "email": "mosiehillis@gmail.com",
+  "instagram": "mosiehillisphotography",
+  "twitter": "mosiehillis",
+  "categoryOrder": ["concerts", "weddings", "portraits"],
+  "categoryLabels": {
+    "concerts": "Concerts",
+    "weddings": "Weddings",
+    "portraits": "Portraits"
+  }
+}

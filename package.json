@@ -1,0 +1,23 @@
+{
+  "name": "mosiehillis-photography",
+  "version": "1.0.0",
+  "description": "Photography portfolio for mosiehillis.com — folder-driven, builds a Category > Shoot > Gallery site from photos/.",
+  "type": "module",
+  "private": true,
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "node src/build.mjs",
+    "clean": "node -e \"import('node:fs').then(fs=>fs.rmSync('dist',{recursive:true,force:true}))\"",
+    "serve": "node src/serve.mjs",
+    "migrate": "node scripts/migrate-photos.cjs"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.32.1",
+    "exifr": "^7.1.3",
+    "js-yaml": "^4.1.0",
+    "sass": "^1.80.0",
+    "sharp": "^0.33.5"
+  }
+}

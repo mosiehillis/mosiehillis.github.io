@@ -1,0 +1,67 @@
+name: Build and deploy
+
+on:
+  push:
+    branches: [master]
+    paths:
+      - "photos/**"
+      - "src/**"
+      - "data/**"
+      - "package.json"
+      - "package-lock.json"
+      - ".github/workflows/**"
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# One build at a time; a newer push cancels an in-flight build (no pile-ups/loops).
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      # Uses `npm install` (not `npm ci`) so it works before a package-lock.json
+      # is committed. Once you commit the lockfile, you can switch to `npm ci`
+      # and add `cache: npm` to setup-node above for faster installs.
+      - run: npm install --no-audit --no-fund
+
+      # Restore the metadata cache so unchanged shoots don't re-call the LLM.
+      # CI never commits this back, so there is no build loop.
+      - name: Restore metadata cache
+        uses: actions/cache@v4
+        with:
+          path: data/llm-cache.json
+          key: llm-cache-${{ hashFiles('photos/**') }}
+          restore-keys: |
+            llm-cache-
+
+      - name: Build site
+        run: npm run build
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - id: deploy
+        uses: actions/deploy-pages@v4

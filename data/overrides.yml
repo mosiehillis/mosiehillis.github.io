@@ -1,0 +1,19 @@
+# Overrides for shoot metadata.
+#
+# The build figures out each shoot's name and date automatically from its
+# folder name + the photos' EXIF data. If it ever gets something wrong, fix it
+# here — anything you set below WINS over the automatic guess and never costs an
+# AI call.
+#
+# The key is the shoot's folder path under photos/ (category/folder-name).
+# Any field you leave out keeps its automatic value.
+#
+# Example:
+#
+#   "concerts/Gavin DeGraw 2022-09-13":
+#     label: "Gavin DeGraw"        # the name shown on the site
+#     date: "2022-09-13"           # YYYY-MM-DD, controls sort order
+#     slug: "gavin-degraw"         # the URL piece: mosiehillis.com/concerts/gavin-degraw/
+#     cover: "03.jpg"              # pin a specific photo as the cover (filename in the folder)
+#
+# Leave this file as-is until you actually need to correct something.
