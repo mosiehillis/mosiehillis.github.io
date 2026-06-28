@@ -257,6 +257,61 @@ body {
 	}
 }
 
+// CARD GRID (category / shoot navigation tiles) — clean responsive tiles,
+// not the photo masonry. Overrides the img sizing so covers fill each tile.
+
+.grid.cards {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+	gap: 2px;
+	align-content: start;
+
+	&::after { content: none; }
+
+	.item {
+		height: 40vh;
+		width: auto;
+		flex: none;
+	}
+
+	.item.card img {
+		position: absolute;
+		inset: 0;
+		width: 100%;
+		height: 100%;
+		min-width: 0;
+		min-height: 0;
+		max-height: none;
+		object-fit: cover;
+	}
+
+	// Empty category -> white card, black centered text
+	.item.card.blank {
+		background: #fff;
+
+		.label {
+			position: static;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			height: 100%;
+			padding: 16px;
+			color: #000;
+			background: none;
+			text-shadow: none;
+			text-align: center;
+		}
+	}
+
+	.empty {
+		grid-column: 1 / -1;
+	}
+}
+
+@media (max-aspect-ratio: 1/1) and (max-width: 480px) {
+	.grid.cards .item { height: 30vh; }
+}
+
 // SOCIAL LINKS
 
 .links {

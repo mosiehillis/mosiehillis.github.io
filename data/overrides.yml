@@ -17,3 +17,9 @@
 #     cover: "03.jpg"              # pin a specific photo as the cover (filename in the folder)
 #
 # Leave this file as-is until you actually need to correct something.
+
+# These two folders have no date in their name and no usable EXIF, so set it here.
+"concerts/NCMF 2022":
+  date: "2022-09-01"
+"concerts/The Beaches":
+  date: "2022-01-01"

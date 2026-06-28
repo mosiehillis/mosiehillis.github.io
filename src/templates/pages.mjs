@@ -12,12 +12,16 @@ export function defaultCover(photos) {
 }
 
 function card({ href, coverAttr, coverVal, cover, labelHtml }) {
-  const tint = cover ? cover.tint : "";
-  const src = cover ? cover.thumb : "";
-  const dims = cover && cover.w && cover.h ? ` width="${cover.w}" height="${cover.h}"` : "";
-  return `<li class="item card" style="background-image:url('${esc(tint)}')">
+  // No photos yet (e.g. an empty category) -> plain white card with black text.
+  if (!cover) {
+    return `<li class="item card blank">
+		<a href="${esc(href)}"><span class="label">${labelHtml}</span></a>
+	</li>`;
+  }
+  const dims = cover.w && cover.h ? ` width="${cover.w}" height="${cover.h}"` : "";
+  return `<li class="item card" style="background-image:url('${esc(cover.tint)}')">
 		<a href="${esc(href)}">
-			<img src="${esc(src)}"${dims} ${esc(coverAttr)}="${esc(coverVal)}" alt="">
+			<img src="${esc(cover.thumb)}"${dims} ${esc(coverAttr)}="${esc(coverVal)}" alt="">
 			<span class="label">${labelHtml}</span>
 		</a>
 	</li>`;
@@ -37,7 +41,7 @@ export function categoryIndex({ site, categories }) {
     )
     .join("\n\t\t");
 
-  const body = `<ul class="grid">\n\t\t${cards}\n\t</ul>`;
+  const body = `<ul class="grid cards">\n\t\t${cards}\n\t</ul>`;
   return layout({ site, body });
 }
 
@@ -45,7 +49,7 @@ export function categoryIndex({ site, categories }) {
 export function categoryShoots({ site, category }) {
   let body;
   if (!category.shoots.length) {
-    body = `<ul class="grid"><li class="empty">No ${esc(category.label.toLowerCase())} shoots yet.</li></ul>`;
+    body = `<ul class="grid cards"><li class="empty">No ${esc(category.label.toLowerCase())} shoots yet.</li></ul>`;
   } else {
     const cards = category.shoots
       .map((shoot) =>
@@ -60,7 +64,7 @@ export function categoryShoots({ site, category }) {
         })
       )
       .join("\n\t\t");
-    body = `<ul class="grid">\n\t\t${cards}\n\t</ul>`;
+    body = `<ul class="grid cards">\n\t\t${cards}\n\t</ul>`;
   }
 
   return layout({
