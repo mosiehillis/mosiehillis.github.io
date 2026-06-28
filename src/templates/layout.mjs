@@ -36,6 +36,7 @@ export function layout({ site, title, description, ogImage, breadcrumb = [], bod
 	${site.twitter ? `<meta name="twitter:site" content="@${esc(site.twitter)}">` : ""}
 	<meta name="twitter:image" content="${esc(img)}">
 	<link rel="stylesheet" type="text/css" href="/css/master.css">
+	<link rel="icon" type="image/svg+xml" href="/favicons/favicon.svg">
 	<link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png">
@@ -45,10 +46,7 @@ export function layout({ site, title, description, ogImage, breadcrumb = [], bod
 	${scripts}
 </head>
 <body>
-	<header class="site-header">
-		<div class="title"><a href="/">${esc(site.title)}</a></div>
-		${crumbHtml ? `<nav class="breadcrumb">${crumbHtml}</nav>` : ""}
-	</header>
+	${crumbHtml ? `<header class="site-header"><nav class="breadcrumb">${crumbHtml}</nav></header>` : ""}
 	${body}
 	<ul class="links">
 		${site.instagram ? `<li class="instagram"><a rel="me" href="https://instagram.com/${esc(site.instagram)}" title="Instagram">Instagram</a></li>` : ""}
